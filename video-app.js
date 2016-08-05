@@ -15,6 +15,23 @@ videoApp.controller('VideoController', ['$scope', '$window', '$interval', '$http
     $scope.isDragging = false;
     $scope.showOptions = false;
     $scope.playlist;
+	$scope.person = {};
+	$scope.mailingList = [];
+	
+	$scope.submitData = function(person)
+    {
+	  //console.log(person.email+person.firstName+person.lastName+person.country);
+	  var customer = {};
+	
+		customer.email=person.email;
+		customer.firstName=person.firstName;
+		customer.lastName=person.lastName;
+		customer.country=person.country;
+	
+		$scope.mailingList.push(customer);	
+		
+      console.log(JSON.stringify($scope.mailingList));
+    };
     
     
     $http.get('data/playlist.json').success(function(data) {

@@ -102,10 +102,6 @@ html, body {
     cursor: pointer;
 }
 
-
-
-
-
 #VideoOptions {
     position:absolute;
     top:0px;
@@ -134,6 +130,32 @@ html, body {
     -webkit-animation: fadeOut 0.75s;
     animation: fadeOut 0.75s;
     display: block !important;
+}
+
+#fullPlayer {
+    min-height: 200px;
+	max-height: 70%;
+    margin: 0 auto;
+    min-width: 300px;
+	max-width: 60%;
+	position: relative;
+}
+
+.tesla-cars-header {
+    text-align: center;
+}
+
+.signup-info {
+    text-align: center;
+}
+
+.input-email {
+    padding-bottom: 10px;
+	margin-top:10px;
+}
+
+.form-inline.align-center {
+    text-align: center;
 }
 
 

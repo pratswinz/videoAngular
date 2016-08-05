@@ -1,22 +1,12 @@
 [
-	{
-		"title":"Starlight Scamper",
-		"path":"video/starlightscamper.mp4", 
-        "description":"Starlight Scamper: a project built for the Lynda.com course 'HTML5 Canvas and WebGL in Flash Professional CC'."
+    {
+		"title":"Introducing model 1 of tesla",
+		"path":"video/Tesla1.mp4", 
+        "description":"Be the first one to book new Tesla model 1,sign up to our mailing list to get updated"
 	},
     {
-		"title":"Test Pattern Video",
-		"path":"video/demo.mp4", 
-        "description":"This video is just a test pattern with audio tone. Good for testing and not much else!"
-	},
-    {
-		"title":"Cow Eating Fence",
-		"path":"video/cow.mp4", 
-        "description":"Engaging video of a cow eating a fence. Just... captivating, isn't it?"
-	},
-    {
-		"title":"Ernesto",
-		"path":"video/ernesto.mp4", 
-        "description":"Hurricane Enesto - in the Carribean."
+		"title":"Introducing model 2 of tesla",
+		"path":"video/Tesla2.mp4", 
+        "description":"Be the first one to book new Tesla model 2,sign up to our mailing list to get updated"
 	}
 ]
